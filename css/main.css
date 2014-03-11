@@ -1,0 +1,130 @@
+body {
+  background-color: #f2f2f2;
+}
+
+#header {
+  background-color: #093A7C;
+  background: rgb(9,58,124); /* Old browsers */
+  background: linear-gradient(to bottom, rgba(9,58,124,1) 0%,rgba(6,36,76,1) 100%); /* W3C */
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+#header img.logo {
+  height: 100px;
+}
+
+#header input.search-query {
+  margin-top: 40px;
+  padding: 4px 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1;
+  border-radius: 15px;
+  width: 250px;
+}
+
+#header .nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  padding-top: 40px;
+  font-weight: 500;
+  color: #cdddeb;  
+  height: 100px;
+}
+
+#header .nav-item:hover,
+#header .nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+#header .nav .active {
+  color: #fff;
+}
+
+#header .nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right:  5px solid transparent;
+  border-bottom: 5px solid;
+  border-left:   5px solid transparent;
+}
+
+#content {
+  /* width: 768px; */
+  padding: 20px;
+  background-color: #fff;
+  background: rgb(255,255,255); /* Old browsers */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* W3C */
+}
+
+/* #footer { */
+/*   background: #2e3936 url(/img/footer_bg.jpg) repeat-x;padding-top: 45px;color: #fff;padding-bottom: 30px; */
+/* } */
+
+#footer-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background: #3a3a3a;
+    margin-top: 10px;
+    border-top: 10px solid #e9eaee;
+    font: 12px 'Open Sans', Arial, sans-serif;
+    line-height: 20px;
+}
+
+#footer-wrapper li {
+  list-style-type: none;
+}
+
+#footer{
+    padding: 20px;
+}
+
+#footer img.logo {
+  height: 50px;
+}
+
+#footer p, #footer a{
+    color: #999;
+}
+
+#footer h5{
+    font-weight: normal;
+    color: #ddd;
+}
+
+.copyright-container{
+    width: 100%;
+    background: #292a2c;
+    border-top: 1px solid #444;
+    padding: 10px 0;
+    color: #777;
+}
+
+.copyright-container a {
+    color: #777;
+}
+
+.footer-contact-info li.phone{
+    background: url('/img/footer-phone.png') no-repeat 0 3px;
+    padding-left: 26px;
+}
+
+.footer-contact-info li.mail{
+    background: url('/img/footer-mail.png') no-repeat 0 5px;
+    padding-left: 27px;
+}
+
+#slider {
+  width: 600px;
+  height: 460px;
+  margin: 0 auto;
+}
